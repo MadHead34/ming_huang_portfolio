@@ -1,14 +1,16 @@
 import Layout from '../components/layout';
-import Landing from '../components/landing';
 import About from '../components/about';
 import Projects from '../components/projects';
 import Contact from '../components/contact';
+import WorkExperience from '../components/workexperience';
+import IntroAnimation from '../components/introanimation';
 
 export default function Home() {
   return (
     <Layout>
-      <Landing />
+      <IntroAnimation />
       <About />
+      <WorkExperience />
       <Projects />
       <Contact />
     </Layout>
