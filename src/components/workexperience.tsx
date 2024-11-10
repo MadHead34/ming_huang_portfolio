@@ -71,7 +71,7 @@ export default function WorkExperience() {
         </InfoColumn>
         <DetailsColumn>
           <Description>
-            <li>Collaborated with UI/UX Designers to meet with the client's design criteria.</li>
+            <li>Collaborated with UI/UX Designers to meet with the client&apos;s design criteria.</li>
             <li>Ensuring that the user interface is very friendly for users to be able send their message in the memorial.</li>
             <li>Built an MVP Product in 10 weeks time and has at least one core features achieved.</li>
           </Description>

@@ -41,7 +41,7 @@ export default function Contact() {
       <FadeInSection>
       <h2>Contact Me</h2>
       <p>
-        I'd love to hear from you! Feel free to reach out via email or connect
+        I&apos;d love to hear from you! Feel free to reach out via email or connect
         with me on LinkedIn and check out my GitHub.
       </p>
       <IconContainer>
