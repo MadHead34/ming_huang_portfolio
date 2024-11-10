@@ -117,7 +117,7 @@ export default function Projects() {
         title="Ming Huang Portfolio Website"
         description="You are looking at it right now :)."
         stack="React, NextJS, TypeScript, Tailwind CSS"
-        link="https://github.com/MadHead34/revampwebsite"
+        link="https://github.com/MadHead34/ming_huang_portfolio"
         dateComplete="November 2024"
       />
     </Section>
