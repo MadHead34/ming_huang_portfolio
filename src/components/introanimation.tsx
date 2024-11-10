@@ -18,7 +18,7 @@ const IntroContainer = styled.div<{ gradientX: number; gradientY: number }>`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: ${({ gradientX, gradientY }) =>
+  background: ${({ gradientX }) =>
     `linear-gradient(${gradientX}deg, #007cf0, #00dfd8)`};
   text-align: center;
   animation: ${scaleUp} 2s ease forwards;
