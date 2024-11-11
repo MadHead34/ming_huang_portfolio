@@ -64,9 +64,9 @@ export default function Navbar() {
       <Nav>
         <StyledLink href="/" isActive={getIsActive('/')}>Home</StyledLink>
         <StyledLink href="#about" isActive={getIsActive('#about')}>About</StyledLink>
+        <StyledLink href="#work" isActive={getIsActive('#work')}>Work Experience</StyledLink>
         <StyledLink href="#projects" isActive={getIsActive('#projects')}>Projects</StyledLink>
         <StyledLink href="#contact" isActive={getIsActive('#contact')}>Contact</StyledLink>
-        <StyledLink href="#work" isActive={getIsActive('#work')}>Work Experience</StyledLink>
       </Nav>
     </Section>
   );

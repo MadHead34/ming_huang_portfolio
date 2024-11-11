@@ -1,6 +1,7 @@
 import ProjectCard from './projectcard';
 import styled from 'styled-components';
-
+import FadeInSection from './fadeinsection';
+import Image from 'next/image';
 const Section = styled.section`
   background-color: #fff; /* Dark background for consistency */
   padding: 4rem 2rem;
@@ -43,6 +44,7 @@ const Heading = styled.h2`
 export default function Projects() {
   return (
     <Section id="projects">
+      <FadeInSection>
       <ProjectNav>
         <NavLinks>
           <NavLink><a href="#project1">Bee Intelligence</a></NavLink>
@@ -55,7 +57,11 @@ export default function Projects() {
           <NavLink><a href="#project8">My Portfolio Website Design</a></NavLink>
         </NavLinks>
       </ProjectNav>
+      </FadeInSection>
+      <FadeInSection>
       <Heading>Projects</Heading>
+      </FadeInSection>
+      <FadeInSection>
       <ProjectCard
         id="project1"
         title="Bee Intelligence BeeApp"
@@ -63,7 +69,18 @@ export default function Projects() {
         stack="Flutter, Dart, Android"
         link="https://www.bee-intelligence.com/"
         dateComplete="February 2019 - December 2019"
+        images={[
+          '/images/beeapp1.jpg',
+          '/images/beeapp2.jpg',
+          '/images/beeapp3.jpg',
+          '/images/beeapp4.jpg',
+          '/images/beeapp5.jpg',
+          '/images/beeapp6.jpg',
+          '/images/beeapp7.jpg'
+        ]}
       />
+      </FadeInSection>
+      <FadeInSection>
       <ProjectCard
         id="project2"
         title="Mission Ready Mission 3 Car Tuners Claim History Form"
@@ -71,7 +88,10 @@ export default function Projects() {
         stack="C#, .NET Core, GitHub ActionFlow, Postman API"
         link="https://github.com/MadHead34/Mission3Redemption-Mission-Ready-Mission-3-Turner-Cars-Claim-History"
         dateComplete="March 2023"
+        images={['/images/Turnercar.png']}
       />
+      </FadeInSection>
+      <FadeInSection>
       <ProjectCard
         id="project3"
         title="Mission Ready 5 FrontEnd Part"
@@ -79,7 +99,10 @@ export default function Projects() {
         stack="JavaScript, HTML, CSS, Docker"
         link="https://github.com/MadHead34/metropropertyclient-FrontEnd-Folder-for-Mission-Ready-Mission-5-Week-2-Project"
         dateComplete="March 2023"
+        images={['/images/metro1.png',]}
       />
+      </FadeInSection>
+      <FadeInSection>
       <ProjectCard
       id="project4"
         title="Mission Ready 5 BackEnd Part"
@@ -87,7 +110,10 @@ export default function Projects() {
         stack="JavaScript, Docker, MongoDB"
         link="https://github.com/MadHead34/metropropertyclient-FrontEnd-Folder-for-Mission-Ready-Mission-5-Week-2-Project"
         dateComplete="March 2023"
+        images={['/images/metro1.png',]}
       />
+      </FadeInSection>
+      <FadeInSection>
       <ProjectCard
       id="project5"
         title="Mission Ready 5 Combination of both folders and DockerFile"
@@ -95,7 +121,14 @@ export default function Projects() {
         stack="JavaScript, HTML, CSS, MongoDB, Docker"
         link="https://github.com/MadHead34/Mission5W2--Mission-Ready-Project-for-Mission5-Metro-Property-Search-Page"
         dateComplete="March 2023"
+        images={['/images/metro1.png',
+                 '/images/Metro2.png',
+                 '/images/Metro3.png',
+                 '/images/Metro4.png'
+        ]}
       />
+      </FadeInSection>
+      <FadeInSection>
       <ProjectCard
       id="project6"
         title="Datacom Stellify"
@@ -103,7 +136,15 @@ export default function Projects() {
         stack="Flutter, Dart"
         link="https://bestawards.co.nz/social-good-award/student-social-good/ryan-jung-hwan-baek/stellify-1/"
         dateComplete="July 2023"
+        images={['/images/Stellify1.png',
+                 '/images/Stellify2.png',
+                 '/images/Stellify3.png',
+                 '/images/Stellify4.png',
+                 '/images/Stellify5.png'
+        ]}
       />
+      </FadeInSection>
+      <FadeInSection>
       <ProjectCard
       id="project7"
         title="Manana Website Revamp"
@@ -111,7 +152,17 @@ export default function Projects() {
         stack="ReactJS, JavaScript, HTML, CSS"
         link="https://github.com/MadHead34/revampwebsite"
         dateComplete="November 2024"
+        images={['/images/mananarevamp1.png',
+                 '/images/mananarevamp2.png',
+                 '/images/mananarevamp3.png',
+                 '/images/mananarevamp4.png',
+                 '/images/mananarevamp5.png',
+                 '/images/mananarevamp6.png',
+                 '/images/mananarevamp7.png',
+        ]}
       />
+      </FadeInSection>
+      <FadeInSection>
       <ProjectCard
       id="project8"
         title="Ming Huang Portfolio Website"
@@ -119,7 +170,9 @@ export default function Projects() {
         stack="React, NextJS, TypeScript, Tailwind CSS"
         link="https://github.com/MadHead34/ming_huang_portfolio"
         dateComplete="November 2024"
+        images={['/images/ming portfolio.png']}
       />
+      </FadeInSection>
     </Section>
   );
 }

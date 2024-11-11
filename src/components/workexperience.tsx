@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import FadeInSection from './fadeinsection';
 
 const WorkSection = styled.section`
   background-color: #1a202c;
@@ -49,7 +50,10 @@ const Description = styled.ul`
 export default function WorkExperience() {
   return (
     <WorkSection id="work">
+        <FadeInSection>
       <h2>Work Experience</h2>
+      </FadeInSection>
+      <FadeInSection>
       <ExperienceItem>
         <InfoColumn>
           <JobTitle>Automation Developer Intern</JobTitle>
@@ -64,6 +68,8 @@ export default function WorkExperience() {
           </Description>
         </DetailsColumn>
       </ExperienceItem>
+      </FadeInSection>
+      <FadeInSection>
       <ExperienceItem>
         <InfoColumn>
           <JobTitle>Software Developer Intern</JobTitle>
@@ -77,6 +83,8 @@ export default function WorkExperience() {
           </Description>
         </DetailsColumn>
       </ExperienceItem>
+      </FadeInSection>
+      <FadeInSection>
       <ExperienceItem>
         <InfoColumn>
           <JobTitle>Checkout Operator</JobTitle>
@@ -90,6 +98,7 @@ export default function WorkExperience() {
           </Description>
         </DetailsColumn>
       </ExperienceItem>
+      </FadeInSection>
     </WorkSection>
   );
 }
