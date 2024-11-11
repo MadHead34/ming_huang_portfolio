@@ -83,7 +83,7 @@ export default function About() {
           Currently, I’m focused on building responsive full-stack web applications. However, I also have experience with mobile applications 
           through Flutter/Dart, Automation and Manual Testing with Robot Framework, Selenium, Cucumber, and Integration Testing with .NET Core.
         </Paragraph>
-        <ResumeButton href="/pdf/Ming__Huang_-_Software_Developer.pdf" target="_blank" rel="noopener noreferrer">
+        <ResumeButton href="/pdf/Ming__Huang_-_Software_Developer(1).pdf" target="_blank" rel="noopener noreferrer">
           View My Resume
         </ResumeButton>
       </FadeInSection>
