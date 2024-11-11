@@ -1,7 +1,6 @@
 import ProjectCard from './projectcard';
 import styled from 'styled-components';
 import FadeInSection from './fadeinsection';
-import Image from 'next/image';
 const Section = styled.section`
   background-color: #fff; /* Dark background for consistency */
   padding: 4rem 2rem;
